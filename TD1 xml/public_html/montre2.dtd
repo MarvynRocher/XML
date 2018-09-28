@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT montre (marque|couleur|taille|bracelet|prix)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT marque (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT couleur (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT taille (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT bracelet EMPTY>
+<!ATTLIST bracelet
+    matiere CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT prix (#PCDATA)>

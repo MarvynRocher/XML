@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT montre (marque,couleur?,taille?,bracelet,prix)>
+<!ELEMENT marque (#PCDATA)>
+<!ELEMENT couleur (#PCDATA)>
+<!ELEMENT taille (#PCDATA)>
+<!ELEMENT bracelet (#PCDATA)>
+<!ELEMENT prix (#PCDATA)>
+
+<!-- la balise bracelet possède un attribut matiere obligatoire -->
+<!ATTLIST bracelet matiere CDATA #REQUIRED >
+
+
